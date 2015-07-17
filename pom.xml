@@ -12,6 +12,7 @@
 	
 	<modules>
 		<module>cf-application</module>
+		<module>cf-app-service</module>
 		<module>cf-micro-service</module>
 	</modules>
 

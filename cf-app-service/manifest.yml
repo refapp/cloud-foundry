@@ -1,0 +1,10 @@
+---
+applications:
+  - name: cf-app-service
+    memory: 512M
+    instance: 1
+    path: ./target/cf-app-service-0.0.1-SNAPSHOT.jar
+    buildpack: java_buildpack
+    timeout: 80
+    env:
+        SPRING_PROFILES_ACTIVE: cloud
